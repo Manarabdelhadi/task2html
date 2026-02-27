@@ -1,0 +1,46 @@
+<!-- ا هو العنصر المناسب لوضعه داخل النموذج لإرسال البيانات عند الضغط عليه ؟
+<input type="submit" value="Send">
+ما هو العنصر المناسب ليكون عنوان للصفحة كاملة؟
+<title></title>
+ما هو العنصر المناسب ليكون عنوان لقسم داخل الصفحة؟
+<h1>عنوان رئيسي للقسم</h1>
+<h2>عنوان فرعي</h2>
+<h3>عنوان أصغر</h3>
+ما هو العنصر المناسب ليحتوي على فقرة نصية؟
+<p></p>
+كيف تحدد لغة المحتوى الخاص بصفحتك
+<html lang="name of language"></html>
+. يمكنك كتابة العنصر الكامل مع ال Attributes الخاصة بتحديد اللغة
+في عالم ال Accessibility هل الأفضل أن أكتب
+10 – 20
+أم
+10 To 20
+الأفضل 10– 20 باستخدام en dash (-) وليس كلمة “To”
+
+لأنه أكثر وضوحًا للقارئ وللقارئات الشاشة (Screen Readers) يفهمونه بشكل صحيح.
+
+إذا كان لديك عنصر Div وتريد الوصول إليه عن الطريق الضغط على ال Tab Button ماذا سوف تفعل في العنصر ؟
+<div tabindex="0"></div>
+ماذا تعني كلمة ARIA
+ARIA = Accessible Rich Internet Applications,مجموعه من الخصائص تساعد الاشخاص ذوي الاعاقه علي التفاعل مع المحتوي  -->
+
+
+
+<div class="choose-skill">
+
+  <div class="skill-item">
+    <input type="checkbox" id="skill-python" name="skills" value="Python" aria-checked="false">
+    <label for="skill-python" role="checkbox">Python - Skill One</label>
+  </div>
+
+  <div class="skill-item">
+    <input type="checkbox" id="skill-php" name="skills" value="PHP" aria-checked="false">
+    <label for="skill-php" role="checkbox">PHP - Skill Two</label>
+  </div>
+
+  <div class="skill-item">
+    <input type="checkbox" id="skill-js" name="skills" value="JavaScript" aria-checked="false">
+    <label for="skill-js" role="checkbox">JavaScript - Skill Three</label>
+  </div>
+
+</div>
